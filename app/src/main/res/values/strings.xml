@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LetsGo</string>
+    <string name="title_activity_navi">Navi</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Music</string>
+    <string name="menu_slideshow">Acheivements</string>
+    <string name="title_activity_every">Every</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_all2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Plan</string>
+    <string name="title_notifications">Diet</string>
+</resources>

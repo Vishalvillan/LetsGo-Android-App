@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".textmove">
+
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/im1"
+       android:layout_width="152dp"
+       android:layout_height="102dp"
+       android:src="@drawable/chest"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.154"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.071"
+       tools:srcCompat="@tools:sample/avatars" />
+
+   <TextView
+       android:id="@+id/chest"
+       android:layout_width="180dp"
+       android:layout_height="102dp"
+       android:gravity="center"
+       android:text="Chest"
+       android:textColor="#FDFBFB"
+       android:textSize="30sp"
+       android:textStyle="italic"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.831"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.071" />
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/im2"
+       android:layout_width="152dp"
+       android:layout_height="102dp"
+       android:src="@drawable/biceps"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.154"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.233"
+       tools:srcCompat="@tools:sample/avatars" />
+
+   <TextView
+       android:id="@+id/Biceps"
+       android:layout_width="180dp"
+       android:layout_height="102dp"
+       android:gravity="center"
+       android:text="Biceps"
+       android:textColor="#FDFBFB"
+       android:textSize="30sp"
+       android:textStyle="italic"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.826"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.233" />
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/im3"
+       android:layout_width="152dp"
+       android:layout_height="102dp"
+       android:src="@drawable/legs"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.154"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.395"
+       tools:srcCompat="@tools:sample/avatars" />
+
+   <TextView
+       android:id="@+id/Legs"
+       android:layout_width="180dp"
+       android:layout_height="102dp"
+       android:gravity="center"
+       android:text="Legs"
+       android:textColor="#FDFBFB"
+       android:textSize="30sp"
+       android:textStyle="italic"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.831"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.395" />
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/im4"
+       android:layout_width="152dp"
+       android:layout_height="102dp"
+       android:src="@drawable/back"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.154"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.558"
+       tools:srcCompat="@tools:sample/avatars" />
+
+   <TextView
+       android:id="@+id/Back"
+       android:layout_width="180dp"
+       android:layout_height="102dp"
+       android:gravity="center"
+       android:text="Back"
+       android:textColor="#FDFBFB"
+       android:textSize="30sp"
+       android:textStyle="italic"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.831"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.558" />
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/im5"
+       android:layout_width="152dp"
+       android:layout_height="102dp"
+       android:src="@drawable/triceps"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.15"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.72"
+       tools:srcCompat="@tools:sample/avatars" />
+
+   <TextView
+       android:id="@+id/Triceps"
+       android:layout_width="180dp"
+       android:layout_height="102dp"
+       android:gravity="center"
+       android:text="Triceps"
+       android:textColor="#FDFBFB"
+       android:textSize="30sp"
+       android:textStyle="italic"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.826"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.72" />
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/im6"
+       android:layout_width="152dp"
+       android:layout_height="102dp"
+       android:src="@drawable/abs"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.15"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.882"
+       tools:srcCompat="@tools:sample/avatars" />
+
+   <TextView
+       android:id="@+id/Abs"
+       android:layout_width="180dp"
+       android:layout_height="102dp"
+       android:gravity="center"
+       android:text="Abs"
+       android:textColor="#FDFBFB"
+       android:textSize="30sp"
+       android:textStyle="italic"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.826"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.88" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
