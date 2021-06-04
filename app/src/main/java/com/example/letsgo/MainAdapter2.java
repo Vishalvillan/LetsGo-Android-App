@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -79,6 +80,7 @@ public class MainAdapter2 extends BaseExpandableListAdapter {
         convertView = LayoutInflater.from(parent.getContext()).inflate(android.R.layout.simple_expandable_list_item_1,parent,false);
         TextView textView=convertView.findViewById(android.R.id.text1);
         final String sChild=String.valueOf(getChild(groupPosition,childPosition));
+        final String sGroup=String.valueOf(getGroup(groupPosition));
         textView.setText(sChild);
        textView.setOnClickListener(new View.OnClickListener() {
            @Override
@@ -87,6 +89,7 @@ public class MainAdapter2 extends BaseExpandableListAdapter {
                String a=sChild;
                Intent intent=new Intent(context,work.class);
                intent.putExtra("name",sChild);
+               intent.putExtra("level",sGroup);
                //intent.putExtra("name",(Serializable)listchild);
                context.startActivity(intent);
            }

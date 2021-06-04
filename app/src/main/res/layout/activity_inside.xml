@@ -10,23 +10,24 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/badgeimage"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
         android:background="@drawable/rook"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/badge"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:text="Rookie"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:gravity="center|left"
+        android:text="Earn The Badge"
         android:textColor="#FFC107"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +40,7 @@
         android:id="@+id/rclview5"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/gradient7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

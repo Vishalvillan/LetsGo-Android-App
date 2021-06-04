@@ -54,7 +54,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public List<info> getAllContacts(){
         List<info> contactList=new ArrayList<>();
         SQLiteDatabase db=this.getReadableDatabase();
-        String select="SELECT * FROM " +params.TABLE_NAME;
+        String select ="SELECT * FROM " +params.TABLE_NAME;
         Cursor cursor=db.rawQuery(select,null);
         //loop now
         if(cursor.moveToFirst()){

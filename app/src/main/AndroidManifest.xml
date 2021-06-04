@@ -9,28 +9,53 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".after"></activity>
-        <activity android:name=".all2" />
-        <activity android:name=".work" />
-        <activity android:name=".walking" />
-        <activity android:name=".textmove" />
-        <activity android:name=".watch" />
-        <activity android:name=".workPlan" />
-        <activity android:name=".plan" />
-        <activity android:name=".videos" />
         <activity
-            android:name=".Every"
-            android:label="@string/title_activity_every"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".all" />
-        <activity android:name=".diet" />
+            android:name=".all2"
+            android:label="all2"
+             />
+        <activity
+            android:name=".after"
+            android:label="after"
+            />
+        <activity
+            android:name=".plan"
+            android:label="plan"
+             />
+        <activity
+            android:name=".textmove"
+            android:label="textmove"
+            />
+
         <activity android:name=".inside" />
-        <activity android:name=".signup" />
-        <activity android:name=".signin" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".work"
+            android:label="work"
+             />
+        <activity
+            android:name=".workPlan"
+            android:label="workPlan"/>
+        <activity
+            android:name=".watch"
+            android:label="watch"
+             />
+        <activity
+            android:name=".diet"
+            android:label="diet"
+        />
+        <activity
+            android:name=".signin"
+            android:label="signin"
+             />
+        <activity
+            android:name=".signup"
+            android:label="signup"
+             />
+        <activity
+            android:name=".MainActivity"
+            android:label="LetsGo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

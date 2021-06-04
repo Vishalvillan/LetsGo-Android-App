@@ -269,15 +269,6 @@ public class watch extends AppCompatActivity {
         imageSlider.stopSliding();
         chronometer.setFormat("%s");
         chronometer.setBase(SystemClock.elapsedRealtime());
-        chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
-            @Override
-            public void onChronometerTick(Chronometer chronometer) {
-                if((SystemClock.elapsedRealtime()-chronometer.getBase())>=10000){
-                    chronometer.setBase(SystemClock.elapsedRealtime());
-                    Toast.makeText(watch.this, "Bing!", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
 
     }
 
@@ -287,12 +278,14 @@ public class watch extends AppCompatActivity {
         sets.setText("Sets");
         reps.setText("Reps");
     }
-    private void plus1Counter(){
+    public void plus1Counter(){
         counter++;
         sets.setText(counter+"");
     }
-    private void plus2Counter(){
+    public void plus2Counter(){
         counter2++;
+        String c=String.valueOf(counter2);
+        Log.d("set",c);
         reps.setText(counter2+"");
         Log.d("reps", reps.getText().toString());
 
@@ -641,9 +634,12 @@ public class watch extends AppCompatActivity {
         }
     }
     public void reset(View v)
-    {
-        chronometer.setBase(SystemClock.elapsedRealtime());
+    {Toast.makeText(watch.this, "Moving to B", Toast.LENGTH_LONG).show();
+        Intent intent=new Intent(watch.this,MainActivity.class);
+        startActivity(intent);
+
+       /* chronometer.setBase(SystemClock.elapsedRealtime());
         pauseoffset=0;
-        pause(v);
+        pause(v);*/
     }
 }

@@ -17,8 +17,11 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
     Activity activity;
     ArrayList<String> arrayList;
+    ImageView i7;
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.row2,parent,false);
+        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+        View view = inflater.inflate(R.layout.row2, parent, false);
+       // View view= LayoutInflater.from(parent.getContext()).inflate(android.R.layout.row2,)
         return  new ViewHolder(view);
     }
     public  MainAdapter(Activity activity,ArrayList<String> arrayList){
@@ -49,7 +52,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
             super(itemView);
             tv5=itemView.findViewById(R.id.t1);
             im5=itemView.findViewById(R.id.i1);
-
+            i7=itemView.findViewById(R.id.imv5);
         }
     }
 }

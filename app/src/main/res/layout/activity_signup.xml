@@ -27,8 +27,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:drawableRight="@drawable/ic_baseline_perm_identity_24"
             android:ems="10"
-            android:hint="Enter Your Full Name"
+            android:hint="Full Name"
             android:inputType="textPersonName"
             android:textColorHint="#FBFAFA" />
 
@@ -39,6 +40,7 @@
             android:layout_margin="10dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
+            android:drawableRight="@drawable/ic_baseline_email_24"
             android:ems="10"
             android:hint="E-mail"
             android:inputType="textEmailAddress"
@@ -51,6 +53,7 @@
             android:layout_margin="10dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
+            android:drawableRight="@drawable/ic_baseline_vpn_key_24"
             android:ems="10"
             android:hint="Password"
             android:inputType="numberPassword"

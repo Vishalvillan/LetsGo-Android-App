@@ -24,23 +24,13 @@ public class all2 extends AppCompatActivity {
     Animation bounce_anim;
     Button btnwork;
     Button btngoal;
-    Button letsgo;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_all2);
         im3=findViewById(R.id.im3);
-        btnlets=findViewById(R.id.press);
         btndiet=findViewById(R.id.diet);
         btnwork=findViewById(R.id.plan);
         btngoal=findViewById(R.id.work);
-        letsgo=findViewById(R.id.press);
-        letsgo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(all2.this,after.class);
-                startActivity(intent);
-            }
-        });
         Intent intent=getIntent();
         final String a=intent.getStringExtra("type");
         btndiet.setOnClickListener(new View.OnClickListener() {
